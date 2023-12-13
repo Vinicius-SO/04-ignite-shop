@@ -4,6 +4,6 @@ export default function Product(){
     const { query } = useRouter()
     
     return(
-        <h1>Product {query.id}</h1>
+        <h1>Product: "id"":"{query.id}"</h1>
     )
 }
